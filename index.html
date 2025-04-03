@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница с кнопкой перехода</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать!</h1>
+        <p>Это бот "Angry OSINT Search!", лучший бот для пробива!</p>
+        <p>Иногда бот может не работать! Почему? Мы пока не знаем способ, для работы бота 24/7!</p>
+        <p>Но у нас хороший функционал:</p>
+        <p>•Поиск по IP (API)</p>
+        <p>•Поиск по номеру телефона (HRL)</p>
+        <p>•Поиск по домену (WHOIS)</p>
+        <p>•Поиск по соц. сетям</p>
+        <p>•Поиск по авто</p>
+        <p>•Поиск по стикеру</p>
+        <p>•Поиск по базам (Have I been Pwned)</p>
+        <p>!Бот использует систему ключей: FLOPPA148 - бесплатный ключ!</p>
+        
+        <!-- Кнопка с URL -->
+        <button class="btn" onclick="window.location.href='https://t.me/botikdlyaaaobshenia_bot'">
+            Перейти в бота
+        </button>
+        
+        <!-- Альтернативный вариант через тег <a> -->
+        <!-- <a href="https://example.com" class="btn">Перейти на example.com</a> -->
+    </div>
+</body>
+</html>
